@@ -1,0 +1,10 @@
+{
+    "DEFAULT_TIEBA": "中山大学",
+    "MYSQL_PASSWD": "123456",
+    "MYSQL_DBNAME": {
+        "中山大学": "中山大学data"
+    },
+    "MYSQL_USER": "root",
+    "MYSQL_HOST": "localhost",
+    "MYSQL_PORT": 3306
+}
