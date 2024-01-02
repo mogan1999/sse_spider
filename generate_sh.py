@@ -13,7 +13,7 @@ with open('school_list_output.txt', 'r', encoding='utf-8') as f:
 # 生成批处理命令列表
 commands = []
 for university in universities:
-    command = f'scrapy run {university} {university}data -p 1 4'  
+    command = f'echo "processing {university}" && scrapy run {university} {university}data -p 1 3'  
     # 修改 json 文件
     config_modify_cmd = f'python modify_config.py {university}'
     commands.append(f'{config_modify_cmd};\n{command};')
