@@ -34,7 +34,7 @@ python generate_sh.py
 ```
 会得到一个类似“getdata20231125.sh”这样的脚本文件，使用screen打开后台终端，运行脚本（脚本运行前确保激活虚拟环境“tieba"和切换到工作目录）
 ```
-bash getdata20231125.sh
+conda activate tieba && cd ./Tieba_Spider && bash getdata20231125.sh
 ```
 
 **特别提醒** 任务一旦断开，不可继续进行。请使用后台任务或者screen命令等。
